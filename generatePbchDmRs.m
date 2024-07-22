@@ -1,4 +1,5 @@
 function dmrs=generatePbchDmRs(issb_,NCellId)
+    % generates PBCH DM-RS according SSB index and BS ID
 arguments
     issb_ % issb+is_second_hf*4
     NCellId
